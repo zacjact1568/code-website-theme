@@ -113,6 +113,7 @@ These are all the parameters used by `hugo-coder` theme.
 | customJS                      | list   | No       | Add extra JS files to the website.               | []                               | `["js/extra-script.js"]`                         |
 | customRemoteJS                | list   | No       | Add extra remote JS files to the website.        | []                               | `["https://www.example.com/file.js"]` |
 | enableTwemoji                 | bool   | No       | Adds support for Twemoji                         | `false`                          | `true` or `false`                                |
+| hidePoweredBy                 | bool   | No       | Hide "Powered By" in the footer or not           | `false`                          | `true` or `false`                                |
 
 ### Social Icons Configuration
 
