@@ -2,9 +2,10 @@
   <section class="container">
     ©
     {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
-      {{ .Site.Params.since }} -
+    {{ .Site.Params.since }}-{{ now.Year }}
+    {{ else }}
+      {{ now.Year }}
     {{ end }}
-    {{ now.Year }}
     {{ with .Site.Params.author }} {{ . }} {{ end }}
     {{ if (and .Site.Params.license) }}
       ·
