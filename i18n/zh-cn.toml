@@ -40,25 +40,25 @@ other = "技术支持"
 other = "参见"
 
 [note]
-other = "注释"
+other = "note"
 
 [tip]
-other = "提示"
+other = "tip"
 
 [example]
-other = "例子"
+other = "example"
 
 [question]
-other = "问题"
+other = "question"
 
 [info]
-other = "信息"
+other = "info"
 
 [warning]
-other = "警告"
+other = "warning"
 
 [error]
-other = "错误"
+other = "error"
 
 [link_to_heading]
 other = "链接到标题"
